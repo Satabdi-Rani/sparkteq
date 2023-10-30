@@ -7,6 +7,7 @@ import Banner from './components/Banner';
 import Services from './components/Services';
 import Count from './components/Count';
 import About from './components/About';
+import Footer from './components/Footer';
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
         <Services />
         <Count />
         <About />
+        <Footer />
          </div>
     </>
   )
