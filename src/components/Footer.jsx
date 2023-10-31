@@ -1,11 +1,12 @@
 import React from 'react' 
 import {BsFacebook} from 'react-icons/bs';
 import {AiFillTwitterCircle, AiFillLinkedin, AiFillYoutube} from 'react-icons/ai';
+import {Link} from 'react-scroll';
 
 
 const Footer = () => {
   return (
-    <div className='bg-[#CBC3E3] py-20'>
+    <div className='bg-purple-100 py-20'>
         <div className='w-[80%] mx-auto'>
             <img src="" alt="" />
             <div className='grid grid-col-1 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4'>
@@ -17,12 +18,12 @@ const Footer = () => {
 
                 <div>
                     <ul className='grid grid-cols-1 sm:grid-col-1 gap-1 my-8 sm:mt-0  md:ml-8 lg:ml-16 text-lg font-semibold'>
-                       <li>Home</li>
-                       <li>Services</li>
-                       <li>About</li>
-                       <li>Testimonials</li>
-                       <li>Clients</li>
-                       <li>Contact</li>
+                       <li><Link to="home" smooth={true} duration={500}><a href="">Home</a></Link></li>
+                       <li><Link to="services" smooth={true} duration={500}><a href="">Services</a></Link></li>
+                       <li><Link to="about" smooth={true} duration={500}><a href="">About</a></Link></li>
+                       <li><Link to="testimonials" smooth={true} duration={500}><a href="">Testimonials</a></Link></li>
+                       <li><Link to="clients" smooth={true} duration={500}><a href="">Clients</a></Link></li>
+                       
                     </ul>
                 </div>
 

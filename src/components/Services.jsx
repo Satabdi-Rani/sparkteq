@@ -3,7 +3,7 @@ import {BsFillWebcamFill} from 'react-icons/bs';
 
 const Services = () => {
   return (
-    <div className='w-[80%] mx-auto'>
+    <div name='services' className='w-[80%] mx-auto'>
          <div className='py-12 sm:py-20'>
             {/* top */}
             <div className='grid grid-col-1 md:grid-cols-2 lg:grid-cols-3 gap-y-10 sm:gap-y-16'>

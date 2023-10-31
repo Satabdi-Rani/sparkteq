@@ -9,6 +9,7 @@ import Count from './components/Count';
 import About from './components/About';
 import Footer from './components/Footer';
 import Clients from './components/Clients';
+import Testimonials from './components/Testimonials';
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
         <Count />
         <About />
         <Clients />
+        <Testimonials />
         <Footer />
          </div>
     </>
