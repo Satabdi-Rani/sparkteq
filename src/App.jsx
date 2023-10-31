@@ -8,6 +8,7 @@ import Services from './components/Services';
 import Count from './components/Count';
 import About from './components/About';
 import Footer from './components/Footer';
+import Clients from './components/Clients';
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
         <Services />
         <Count />
         <About />
+        <Clients />
         <Footer />
          </div>
     </>
