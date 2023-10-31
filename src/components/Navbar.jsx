@@ -23,8 +23,9 @@ const Navbar = () => {
                        <li><Link to="home" smooth={true} duration={500}><a href="">Home</a></Link></li>
                        <li><Link to="services" smooth={true} duration={500}><a href="">Services</a></Link></li>
                        <li><Link to="about" smooth={true} duration={500}><a href="">About</a></Link></li>
+                       <li><Link to="clients" smooth={true} duration={500}><a href="">Clients</a></Link></li>
                        <li><Link to="testimonials" smooth={true} duration={500}><a href="">Testimonials</a></Link></li>
-                       <li><Link to="" smooth={true} duration={500}><a href="">Clients</a></Link></li>
+                       
                     </ul>
                 </div>
 
